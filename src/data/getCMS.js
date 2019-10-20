@@ -97,6 +97,7 @@ export default async function getCMSData() {
 				'Content-Type': `application/json`,
 				'Accept' : `application/json`,
                 'Access-Control-Allow-Headers': '*'
+                
 			},
 			body: JSON.stringify({
 				query: queryMessage,
